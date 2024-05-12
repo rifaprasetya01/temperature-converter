@@ -3,9 +3,9 @@
 Now i had created the simple app for convert temperature like Celsius to another temperatures.
 I'm get the inspiration from youtube video then i develop with my idea
 
-## I want this
+## I want this project🧸
 
-Step by step to play:
+Step by step:
 
 1. Clone this repository into your personal computer
 2. Open directory
