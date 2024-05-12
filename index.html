@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Temperatur Converter</title>
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+
+    <main class="wrapper">
+      <div class="left-temp temp-form">
+        <select
+          class="temp-selector"
+          name="left-temperatur-selector"
+          id="left-temp-selector">
+          <option class="temp-option temp-opt-c" value="celsius">
+            Celsius (C)
+          </option>
+          <option class="temp-option temp-opt-f" value="fahrenheit">
+            Fahrenheit (F)
+          </option>
+          <option class="temp-option temp-opt-k" value="kelvin">
+            Kelvin (K)
+          </option>
+          <option class="temp-option temp-opt-r" value="reamur">
+            Reamur (R)
+          </option>
+        </select>
+        <input id="left-temp-input" type="number" class="temp-input" />
+      </div>
+
+      <img
+        class="converter-icon"
+        src="assets/icon/arrow_left_right_icon.png"
+        alt="arrow icon" />
+
+      <div class="right-temp temp-form">
+        <select
+          class="temp-selector"
+          name="right-temperatur-selector"
+          id="right-temp-selector">
+          <option class="temp-option temp-opt-f" value="fahrenheit">
+            Fahrenheit (F)
+          </option>
+          <option class="temp-option temp-opt-c" value="celsius">
+            Celsius (C)
+          </option>
+          <option class="temp-option temp-opt-k" value="kelvin">
+            Kelvin (K)
+          </option>
+          <option class="temp-option temp-opt-r" value="reamur">
+            Reamur (R)
+          </option>
+        </select>
+        <input id="right-temp-input" type="number" class="temp-input" />
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
